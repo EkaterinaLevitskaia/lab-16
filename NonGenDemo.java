@@ -3,6 +3,7 @@ public class NonGenDemo {
         NonGen iOb;
 
         iOb = new NonGen(88);
+        iOb.showType();
         int v = (Integer) iOb.getOb();
         System.out.println("Значение: " + v);
         System.out.println();
